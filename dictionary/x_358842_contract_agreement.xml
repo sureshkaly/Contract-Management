@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" label="Agreement" max_length="40" name="x_358842_contract_agreement" type="collection">
-        <element label="Accounts" max_length="32" name="accounts" reference="x_358842_contract_accounts" type="reference"/>
+        <element display="true" label="Accounts" max_length="100" name="accounts" reference="x_358842_contract_accounts" reference_key="account_name" type="reference"/>
         <element label="Agreement Name" max_length="80" name="agreement_name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Agreement Number" mandatory="true" max_length="40" name="number" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Agreement End Date" max_length="40" name="u_agreement_end_date" type="glide_date"/>
@@ -20,8 +20,10 @@
                 <element inactive_on_update="false" label="Cancelled" sequence="3" value="cancelled"/>
             </choice>
         </element>
+        <element label="External Signatory" max_length="32" name="u_external_signatory" reference="x_358842_contract_signatory" reference_qual="type=External^EQ" reference_qual_condition="type=External^EQ" type="reference"/>
         <element label="File Attachment" max_length="40" name="u_file_attachment" type="file_attachment"/>
         <element attributes="edge_encryption_enabled=true" label="File Description" max_length="255" name="u_file_description" type="string_full_utf8"/>
+        <element label="Internal Signatory" max_length="32" name="u_internal_signatory" reference="x_358842_contract_signatory" reference_qual="type=Internal^EQ" reference_qual_condition="type=Internal^EQ" type="reference"/>
         <element label="Review Completed" max_length="40" name="u_review_completed" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_status_category" dependent_on_field="u_status_category" label="Status" max_length="40" name="u_status" type="string" use_dependent_field="true">
             <choice>
@@ -30,7 +32,7 @@
                 <element dependent_value="In Authoring" inactive_on_update="false" label="Review Completed" value="Review Completed"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" display="true" label="Status Category" max_length="40" name="u_status_category" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status Category" max_length="40" name="u_status_category" type="string">
             <choice>
                 <element inactive_on_update="false" label="Request" sequence="0" value="request"/>
                 <element inactive_on_update="false" label="In Authoring" sequence="1" value="in authoring"/>
@@ -42,7 +44,13 @@
         </element>
         <element label="Workflow Status" max_length="40" name="workflow_status" type="string"/>
         <index name="index">
+            <element name="u_internal_signatory"/>
+        </index>
+        <index name="index2">
             <element name="accounts"/>
+        </index>
+        <index name="index3">
+            <element name="u_external_signatory"/>
         </index>
     </element>
 </database>

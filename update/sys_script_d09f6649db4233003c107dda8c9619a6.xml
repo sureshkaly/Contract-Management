@@ -29,7 +29,7 @@
         <rest_service/>
         <rest_service_text/>
         <rest_variables/>
-        <role_conditions>admin</role_conditions>
+        <role_conditions>admin,x_358842_contract.agreement_user</role_conditions>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	// Add your code here
@@ -41,7 +41,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d09f6649db4233003c107dda8c9619a6</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>UpdateStatusReviewCompleted</sys_name>
         <sys_overrides/>
         <sys_package display_value="Contract Management" source="x_358842_contract">2bbe4a01db0233003c107dda8c961950</sys_package>
@@ -49,9 +49,9 @@
         <sys_scope display_value="Contract Management">2bbe4a01db0233003c107dda8c961950</sys_scope>
         <sys_update_name>sys_script_d09f6649db4233003c107dda8c9619a6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-13 17:07:27</sys_updated_on>
+        <sys_updated_on>2019-06-13 18:35:07</sys_updated_on>
         <template>workflow_status=Review Completed^u_status=Review Completed^EQ</template>
-        <when>after</when>
+        <when>before</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=d09f6649db4233003c107dda8c9619a6"/>
 </record_update>

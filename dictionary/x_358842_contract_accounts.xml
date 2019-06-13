@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Accounts" max_length="40" name="x_358842_contract_accounts" type="collection">
-        <element label="Account Name" max_length="100" name="account_name" type="string"/>
+        <element display="true" label="Account Name" max_length="100" name="account_name" type="string"/>
         <element choice="1" label="Account Type" mandatory="true" max_length="40" name="account_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Customer" value="Customer"/>
                 <element inactive_on_update="false" label="Supplier" value="Supplier"/>
             </choice>
         </element>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Active" value="Active"/>

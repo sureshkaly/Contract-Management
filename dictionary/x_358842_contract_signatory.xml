@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Signatory" max_length="40" name="x_358842_contract_signatory" type="collection">
+        <element label="First Name" max_length="50" name="first_name" type="string"/>
+        <element label="Last Name" max_length="20" name="last_name" type="string"/>
+        <element label="Middle Name" max_length="20" name="middle_name" type="string"/>
+        <element label="Name" max_length="120" name="name" type="string"/>
+        <element choice="1" display="true" label="Type" max_length="20" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="External" value="External"/>
+                <element inactive_on_update="false" label="Internal" value="Internal"/>
+                <element inactive_on_update="false" label="Other" value="Other"/>
+            </choice>
+        </element>
+    </element>
+</database>
