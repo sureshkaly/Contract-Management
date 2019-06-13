@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_status_category" table="x_358842_contract_agreement" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request</label>
+            <language>en</language>
+            <name>x_358842_contract_agreement</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-13 15:30:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>22952a81db4233003c107dda8c96199e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-13 16:35:36</sys_updated_on>
+            <value>request</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In Authoring</label>
+            <language>en</language>
+            <name>x_358842_contract_agreement</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-13 15:30:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>62952a81db4233003c107dda8c96199f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-13 16:35:51</sys_updated_on>
+            <value>in authoring</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In Signatures</label>
+            <language>en</language>
+            <name>x_358842_contract_agreement</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-13 15:30:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ee952a81db4233003c107dda8c96199f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-13 16:37:28</sys_updated_on>
+            <value>in signatures</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Activated</label>
+            <language>en</language>
+            <name>x_358842_contract_agreement</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-13 15:30:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e952a81db4233003c107dda8c9619a0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-13 16:37:33</sys_updated_on>
+            <value>activated</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Expired</label>
+            <language>en</language>
+            <name>x_358842_contract_agreement</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-13 15:30:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea952a81db4233003c107dda8c9619a1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-13 16:37:38</sys_updated_on>
+            <value>expired</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Terminated</label>
+            <language>en</language>
+            <name>x_358842_contract_agreement</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-13 15:30:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6a952a81db4233003c107dda8c9619a2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-13 16:37:47</sys_updated_on>
+            <value>terminated</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_status_category</element>
+            <name>x_358842_contract_agreement</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-13 15:30:20</sys_created_on>
+            <sys_id>6a952a81db4233003c107dda8c96199e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_status_category</sys_name>
+            <sys_package display_value="Contract Management" source="x_358842_contract">2bbe4a01db0233003c107dda8c961950</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Contract Management">2bbe4a01db0233003c107dda8c961950</sys_scope>
+            <sys_update_name>sys_choice_x_358842_contract_agreement_u_status_category</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-13 15:30:20</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

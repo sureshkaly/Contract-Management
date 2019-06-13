@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Agreement" max_length="40" name="x_358842_contract_agreement" type="collection">
+        <element label="Accounts" max_length="32" name="accounts" reference="x_358842_contract_accounts" type="reference"/>
+        <element label="Agreement Name" max_length="80" name="agreement_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Agreement Number" mandatory="true" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Agreement End Date" max_length="40" name="u_agreement_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Agreement Start Date" mandatory="true" max_length="40" name="u_agreement_start_date" type="glide_date"/>
+        <element attributes="omit_sys_original=true" label="Agreement Value" mandatory="true" max_length="20" name="u_agreement_value" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Approvals Required" max_length="40" name="u_approvals_required" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="not submitted" label="Approval Status" max_length="40" name="u_choice_8" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Not Submitted" sequence="0" value="not submitted"/>
+                <element inactive_on_update="false" label="Language Approval" sequence="1" value="language approval"/>
+                <element inactive_on_update="false" label="Language Approved" sequence="2" value="language approved"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="3" value="cancelled"/>
+            </choice>
+        </element>
+        <element label="File Attachment" max_length="40" name="u_file_attachment" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" label="File Description" max_length="255" name="u_file_description" type="string_full_utf8"/>
+        <element label="Review Completed" max_length="40" name="u_review_completed" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_status_category" dependent_on_field="u_status_category" label="Status" max_length="40" name="u_status" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="In Authoring" inactive_on_update="false" label="Author Contract" value="Author Contract"/>
+                <element dependent_value="Request" inactive_on_update="false" label="Request" value="Request"/>
+                <element dependent_value="In Authoring" inactive_on_update="false" label="Review Completed" value="Review Completed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" display="true" label="Status Category" max_length="40" name="u_status_category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Request" sequence="0" value="request"/>
+                <element inactive_on_update="false" label="In Authoring" sequence="1" value="in authoring"/>
+                <element inactive_on_update="false" label="In Signatures" sequence="2" value="in signatures"/>
+                <element inactive_on_update="false" label="Activated" sequence="3" value="activated"/>
+                <element inactive_on_update="false" label="Expired" sequence="4" value="expired"/>
+                <element inactive_on_update="false" label="Terminated" sequence="5" value="terminated"/>
+            </choice>
+        </element>
+        <element label="Workflow Status" max_length="40" name="workflow_status" type="string"/>
+        <index name="index">
+            <element name="accounts"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_358842_contract_accounts" version="2" view="customers">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_358842_contract_accounts" element="NULL" name="x_358842_contract_accounts" parent="NULL" relationship="NULL" sys_domain="global" view="4d3bde89db0233003c107dda8c9619ca">b67d9e0ddb0233003c107dda8c961909</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-13 14:54:51</sys_created_on>
+            <sys_id>fe7d9e0ddb0233003c107dda8c961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-13 14:54:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>account_name</element>
+            <list_id display_value="x_358842_contract_accounts" element="NULL" name="x_358842_contract_accounts" parent="NULL" relationship="NULL" sys_domain="global" view="4d3bde89db0233003c107dda8c9619ca">b67d9e0ddb0233003c107dda8c961909</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-13 14:54:51</sys_created_on>
+            <sys_id>727d9e0ddb0233003c107dda8c96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-13 14:54:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>account_type</element>
+            <list_id display_value="x_358842_contract_accounts" element="NULL" name="x_358842_contract_accounts" parent="NULL" relationship="NULL" sys_domain="global" view="4d3bde89db0233003c107dda8c9619ca">b67d9e0ddb0233003c107dda8c961909</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-13 14:54:51</sys_created_on>
+            <sys_id>f27d9e0ddb0233003c107dda8c96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-13 14:54:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>status</element>
+            <list_id display_value="x_358842_contract_accounts" element="NULL" name="x_358842_contract_accounts" parent="NULL" relationship="NULL" sys_domain="global" view="4d3bde89db0233003c107dda8c9619ca">b67d9e0ddb0233003c107dda8c961909</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-13 14:54:51</sys_created_on>
+            <sys_id>767d9e0ddb0233003c107dda8c96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-13 14:54:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_358842_contract_accounts" element="NULL" name="x_358842_contract_accounts" parent="NULL" relationship="NULL" sys_domain="global" view="4d3bde89db0233003c107dda8c9619ca">b67d9e0ddb0233003c107dda8c961909</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-13 14:54:51</sys_created_on>
+            <sys_id>f67d9e0ddb0233003c107dda8c96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-13 14:54:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_by</element>
+            <list_id display_value="x_358842_contract_accounts" element="NULL" name="x_358842_contract_accounts" parent="NULL" relationship="NULL" sys_domain="global" view="4d3bde89db0233003c107dda8c9619ca">b67d9e0ddb0233003c107dda8c961909</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-13 14:54:51</sys_created_on>
+            <sys_id>7a7d9e0ddb0233003c107dda8c96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-13 14:54:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_358842_contract_accounts" element="NULL" name="x_358842_contract_accounts" parent="NULL" relationship="NULL" sys_domain="global" view="4d3bde89db0233003c107dda8c9619ca">b67d9e0ddb0233003c107dda8c961909</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-13 14:54:51</sys_created_on>
+            <sys_id>fa7d9e0ddb0233003c107dda8c96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-13 14:54:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="x_358842_contract_accounts" element="NULL" name="x_358842_contract_accounts" parent="NULL" relationship="NULL" sys_domain="global" view="4d3bde89db0233003c107dda8c9619ca">b67d9e0ddb0233003c107dda8c961909</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-13 14:54:51</sys_created_on>
+            <sys_id>7e7d9e0ddb0233003c107dda8c96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-13 14:54:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_358842_contract_accounts</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-13 14:54:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b67d9e0ddb0233003c107dda8c961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_358842_contract_accounts</sys_name>
+            <sys_package display_value="Contract Management" source="x_358842_contract">2bbe4a01db0233003c107dda8c961950</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Contract Management">2bbe4a01db0233003c107dda8c961950</sys_scope>
+            <sys_update_name>sys_ui_list_x_358842_contract_accounts_customers</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-13 14:54:51</sys_updated_on>
+            <sys_user/>
+            <view display_value="Customers" name="customers">4d3bde89db0233003c107dda8c9619ca</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

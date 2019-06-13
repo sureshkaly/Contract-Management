@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="workflow_status" label="Workflow Status" language="en" table="x_358842_contract_agreement">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>workflow_status</element>
+            <help/>
+            <hint/>
+            <label>Workflow Status</label>
+            <language>en</language>
+            <name>x_358842_contract_agreement</name>
+            <plural>Workflow Status</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-13 16:40:29</sys_created_on>
+            <sys_id>0aa5ba4ddb4233003c107dda8c961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Workflow Status</sys_name>
+            <sys_package display_value="Contract Management" source="x_358842_contract">2bbe4a01db0233003c107dda8c961950</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Contract Management">2bbe4a01db0233003c107dda8c961950</sys_scope>
+            <sys_update_name>sys_documentation_x_358842_contract_agreement_workflow_status_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-13 16:40:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
