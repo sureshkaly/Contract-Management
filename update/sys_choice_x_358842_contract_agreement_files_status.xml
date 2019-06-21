@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status" table="x_358842_contract_agreement_files" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Authoring</label>
+            <language>en</language>
+            <name>x_358842_contract_agreement_files</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-20 16:51:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>674b329bdb4233003c107dda8c9619af</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-20 16:52:02</sys_updated_on>
+            <value>Authoring</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fully Signed</label>
+            <language>en</language>
+            <name>x_358842_contract_agreement_files</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-20 16:52:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f48b3a9bdb4233003c107dda8c9619ea</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-20 16:52:45</sys_updated_on>
+            <value>Fully Signed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Partially Signed</label>
+            <language>en</language>
+            <name>x_358842_contract_agreement_files</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-20 16:52:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de6b769bdb4233003c107dda8c9619f6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-20 16:52:29</sys_updated_on>
+            <value>Partially Signed</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>x_358842_contract_agreement_files</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-20 16:51:57</sys_created_on>
+            <sys_id>566bb69bdb4233003c107dda8c9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="Contract Management" source="x_358842_contract">2bbe4a01db0233003c107dda8c961950</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Contract Management">2bbe4a01db0233003c107dda8c961950</sys_scope>
+            <sys_update_name>sys_choice_x_358842_contract_agreement_files_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-20 16:51:57</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

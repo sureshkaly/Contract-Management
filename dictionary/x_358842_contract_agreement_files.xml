@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Agreement Files" max_length="40" name="x_358842_contract_agreement_files" type="collection">
+        <element display="true" label="Agreement" max_length="80" name="agreement" reference="x_358842_contract_agreement" reference_key="agreement_name" type="reference"/>
+        <element label="Agreement File" max_length="40" name="agreement_file" type="file_attachment"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Agreement Files Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Authoring" value="Authoring"/>
+                <element inactive_on_update="false" label="Fully Signed" value="Fully Signed"/>
+                <element inactive_on_update="false" label="Partially Signed" value="Partially Signed"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="agreement"/>
+        </index>
+    </element>
+</database>

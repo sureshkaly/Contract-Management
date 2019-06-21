@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-20 14:31:49</sys_created_on>
+        <sys_id>e15b1697db0233003c107dda8c9619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_358842_contract_agreement_files.x_358842_contract.agreement_files_user</sys_name>
+        <sys_package display_value="Contract Management" source="x_358842_contract">2bbe4a01db0233003c107dda8c961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Contract Management">2bbe4a01db0233003c107dda8c961950</sys_scope>
+        <sys_security_acl display_value="x_358842_contract_agreement_files">295b1697db0233003c107dda8c9619c8</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e15b1697db0233003c107dda8c9619cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-20 14:31:49</sys_updated_on>
+        <sys_user_role display_value="x_358842_contract.agreement_files_user" name="x_358842_contract.agreement_files_user">d55b1697db0233003c107dda8c961981</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
